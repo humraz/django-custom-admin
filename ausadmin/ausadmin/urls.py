@@ -41,7 +41,7 @@ urlpatterns = [
     url(r'.*delete/(?P<part_id>[0-9]+)/$',adminside_views.delfunction,name= 'delid'),
     url(r'.*deletee/(?P<part_id>[0-9]+)/$',adminside_views.delitem,name= 'delitem'),
     url(r'.*deleteuser/(?P<part_id>[0-9]+)/$',adminside_views.deluser,name= 'deluser'),
-    url(r'^$', adminside_views.signupform),
+    
    
 ]
 
